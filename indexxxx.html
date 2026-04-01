@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dameli - Digital Journalism</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Body and general layout */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #2c003e, #6a0dad);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+        }
+
+        /* Task 5: ID styling */
+        #main-heading {
+            color: #ffccff;
+        }
+
+        /* Task 4: Element selectors */
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            width: 250px;
+        }
+
+        ul, ol {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #ffccff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            background: #ff66cc;
+            color: white;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background: rgba(255,255,255,0.1);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid white;
+        }
+
+        form {
+            margin-top: 20px;
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        input {
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        /* Task 5: Class styling */
+        .highlight {
+            background-color: rgba(255,255,0,0.3);
+            font-weight: bold;
+        }
+
+        /* Task 8: Box Model */
+        p {
+            border: 1px solid white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Task 9: Position */
+        .relative {
+            position: relative;
+            left: 20px;
+            background: rgba(255,105,180,0.5);
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 50px;
+            right: 20px;
+            background: rgba(255,165,0,0.7);
+            padding: 10px;
+        }
+
+        /* Task 10: Sizing */
+        .small-text {
+            font-size: 14px;
+        }
+
+        .big-text {
+            font-size: 2em;
+        }
+
+        /* Task 11: Float */
+        .left {
+            float: left;
+            width: 45%;
+            background: rgba(0,255,0,0.3);
+            padding: 10px;
+        }
+
+        .right {
+            float: right;
+            width: 45%;
+            background: rgba(255,0,0,0.3);
+            padding: 10px;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+
+    <!-- Task 6: Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Task 5: ID -->
+    <h1 id="main-heading">Dameli</h1>
+    <h2>Digital Journalism</h2>
+
+    <h3>About Me</h3>
+    <!-- Task 1: Inline CSS -->
+    <p style="text-align:center; color: lightblue;">
+        I am a student of Astana IT University.
+    </p>
+
+    <h3>My Hobbies</h3>
+    <ol>
+        <li>Editing</li>
+        <li class="highlight">Cooking</li>
+        <li>Sewing</li>
+    </ol>
+
+    <h3>Favorite Websites</h3>
+    <ul>
+        <li><a href="https://www.pinterest.com" target="_blank">Pinterest</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://www.tiktok.com" target="_blank">TikTok</a></li>
+    </ul>
+
+    <h3>My Photo</h3>
+    <img src="me.jpg.jpg" alt="My photo">
+
+    <h3>Button</h3>
+    <button>Click Me</button>
+
+    <h3>My Schedule</h3>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Web Technologies</td>
+            <td>Thursday</td>
+            <td>11:00</td>
+        </tr>
+    </table>
+
+    <h3>My Mood Today</h3>
+    <p class="small-text" style="text-align:center;">
+        I feel good today ❤️ 🦜 😊
+    </p>
+
+    <!-- Task 9: Position -->
+    <div class="relative">Relative block</div>
+    <div class="absolute">Absolute block</div>
+
+    <!-- Task 11: Float -->
+    <div class="left">Left block</div>
+    <div class="right">Right block</div>
+    <div class="clear"></div>
+
+    <h3>Contact Me</h3>
+    <form>
+        Name:<br>
+        <input type="text"><br><br>
+        Email:<br>
+        <input type="email"><br><br>
+        Favorite Color:<br>
+        <input type="color"><br><br>
+        <input type="submit">
+    </form>
+
+</div>
+
+</body>
+</html>
